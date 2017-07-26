@@ -2,9 +2,21 @@ package day3;
 
 import java.io.IOException;
 
-public class StephenHawking {
+import javax.swing.JOptionPane;
 
-	// 1. make a main method and put steps 2, 3 & 4 inside it
+public class StephenHawking {
+public static void main(String[] args) {
+	for (int i = 0; i < 1000; i++) {
+		
+	
+	
+String ans = JOptionPane.showInputDialog("Say Something");
+speak(ans);
+	}
+}
+	
+
+// 1. make a main method and put steps 2, 3 & 4 inside it
 	// 2. ask the user for a sentence
 	// 3. call the speak method below and send it the sentence
 	// 4. repeat steps 2 and 3 a lot of times
