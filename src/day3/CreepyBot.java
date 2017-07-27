@@ -21,9 +21,9 @@ public static void main(String[] args) {
 	String ans14= JOptionPane.showInputDialog("Where is that money located?");
 	String ans15= JOptionPane.showInputDialog("Do you ever listen to music loud enough where a breaking window could not be heard?");
 	JOptionPane.showMessageDialog(null, "Notice: We suggest that on the date of your delivery, you go to sleep extra early, leave your valuables unprotected, or even go on a vacation.");
-	JOptionPane.showMessageDialog(null, "Thank you for taking this survey, we hope you enjoy your free i Pad. We cannot be blamed if the i Pad if never delivered.");
-	JOptionPane.showMessageDialog(null, ans1 + ans2 +  ans3 +  ans4 + ans5 +  ans6 +  ans7 +  ans8 +  ans9 +  ans10 + ans12 + ans13 + ans14 + ans15);
-	
+	JOptionPane.showMessageDialog(null, "Thank you for taking this survey, we hope you enjoy your free i Pad. We cannot be blamed if the i Pad is never delivered.");
+	JOptionPane.showMessageDialog(null, "Do we have this information correct? " + ans1 + " " +ans2 + " " + ans3 + " " + ans4 + " " +ans5 + " " + ans6 +" " +  ans7 +" " +  ans8 + " " + ans9 +" " +  ans10 +" " + ans12 +" " + ans13 +" " + ans14 +" " + ans15);
+	JOptionPane.showMessageDialog(null, "Thank you for taking this survey. Your i Pad will delivered sometime within in the next 10-30 days. We here at realrewards.com appreciate your time. By clicking ok, you are agreeing never to sue us as a result of possible missing valuables from your home. Have a nice day!");
 	
 	
 	
