@@ -12,7 +12,7 @@ public class CandyCrush {
 		// 3. Ask the user for the name of their best friend
 		String ans2= JOptionPane.showInputDialog("What is the name of your best friend?");
 		// 4. Tell them their best friend is as sweet as candy
-		JOptionPane.showMessageDialog(null, ans2+" Is the name of the guy that I will destroy tommorow. The only way to save him is to make out with" + ans1);
+		JOptionPane.showMessageDialog(null, ans2+" Is the name of the guy that I will destroy tommorow. The only way to save him is to make out with " + ans1);
 		
 
 	} 
